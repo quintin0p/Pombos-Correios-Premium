@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início | Pixeon </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" ; rel="stylesheet">
+    <link rel="stylesheet" href="style-cadastro.css">
+</head>
+
+<body>
+
+</body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-grey bg-grey">
+        <div class="container">
+
+            <a class="navbar" href="#"><img src="../img/pixeon_transparente.png" class="logo" alt="Logo-Pixeon"> </a>
+            <h1 class="titulo-logo">Pixeon</h1>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Início</a>
+                    </li>
+                    <span class="divisa"> | </span>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./produtos.html">Produtos</a>
+                    </li>
+                    <span class="divisa"> | </span>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./planos.html">Planos</a>
+                    </li>
+                    <span class="divisa"> | </span>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cadastro.html">Cadastre sua Pomba</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="msg">
+        <h2 class="msg-inicio">— Pagou, Voou, Entregou —</h2>
+    </div>
+    </div>
+</header>
+
+<main>
+    <h2 class="titulo">Cadastro da sua Pomba</h2>
+
+            <form class="formulario" action="#" method="post">
+                <fieldset>
+                    <legend>Identificacao</legend>
+
+                    <div class="campo-formulario">
+                        <label for="nome">Nome da Pomba</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite aqui o nome da sua Pomba" minlength="3"
+                            maxlength="80" required>
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="email">E-mail da Pomba</label>
+                        <input type="email" id="email" name="email" placeholder="email@exemplo.com.br">
+                    </div>
+
+                    <div>
+                        <div class="campo-formulario">
+                            <label for="telefone">Telefone do Responsável</label>
+                            <input type="tel" id="telefone" name="telefone">
+                        </div>
+                        
+                    </div>
+
+                </fieldset>
+<!--  -->
+                <fieldset>
+                    <legend>Trabalho</legend>
+
+
+                    <div class="campo-formulario">
+                        <label for="cor">Escolha a cor da sua pomba:</label>
+                        <input type="color" name="cor" id="cor" value="#f5678d">
+                    </div>
+
+                    <div class="campo-formulario">
+                        <label for="nome">Velocidade da sua Pomba</label>
+                        <input type="text" id="nome" name="nome" placeholder="Velocidade em m/s" minlength="3"
+                            maxlength="80" required>
+                    </div>
+
+        
+                </fieldset>
+                <!--  -->
+    
+                <div class="acoes-formulario">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+
+        </section>
+
+</main>
+
+<footer class="rodape">
+    <div class="container">
+        <p>&copy; Copyright ©2026. Pixeon.Ltda. <br>
+            Trabalhe conosco
+            <span> | </span>
+            Termos e condições
+            <span> | </span>
+            Promoções
+            <span> | </span>
+            Acessibilidade
+            <span> | </span>
+            Contato
+            <span> | </span>
+            CNPJ n.º xyz / Av. Olimpo, nº xyz, Sorocaba/SP - CEP 123456789 - empresa
+            do grupo Olyympo.</p>
+
+    </div>
+</footer>
+
+</html>

@@ -121,7 +121,7 @@ width: 100%;
 
 margin: 20px;
 margin-left: 500px;
-background-color: #c5bbd7;
+background-color: rgb(137, 137, 184);
 font-size: 24px;
 text-align: center;
 
@@ -132,7 +132,7 @@ text-align: center;
     font-size: 30px;
     border-radius: 20px;
     transition: 0.3s;
-    background-color: #aba2bb;
+    background-color: rgb(168, 168, 226);
     color: #4D445C;
 }
 
