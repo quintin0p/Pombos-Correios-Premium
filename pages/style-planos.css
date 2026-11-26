@@ -1,0 +1,143 @@
+.logo {
+    height: 110px;
+    display: flex;
+
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('../fonts/coolvetica/Coolvetica\ Rg\ It.otf') format('opentype');
+
+}
+
+.titulo {
+    height: 90px;
+    align-items: center;
+    font-family: 'Coolvetica';
+    color: #4D445C;
+    font-size: 80px;
+}
+
+.navbar {
+    background-color: #f4f3f6;
+    color: white;
+    margin-top: 0px;
+
+}
+
+.card:hover {
+    transform: translateY(15px);
+    color: #4D445C;
+
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.nav-item:hover {
+    background-color: #e0dfe2;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.msg-inicio {
+    align-items: center;
+    font-family: 'Coolvetica';
+    color: #adabb0;
+    font-size: 70px;
+}
+
+
+.msg {
+    background-color: #d6d6dc;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+
+.oferta {
+    background-color: #412E5D;
+    text-align: center;
+    color: #FECB43;
+    font-family: 'Quicksilver';
+}
+
+body {
+    background-color: white;
+
+}
+
+.divisa {
+    color: black;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.banner {
+    height: 1065px;
+
+}
+
+.rodape {
+    font-size: 15px;
+    font-family: 'Caviar Dreams';
+    text-align: center;
+    background-color: #d6d6dc;
+    padding: 20px;
+
+}
+
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url(../fonts/caviar_dreams/CaviarDreams_Italic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Quicksilver';
+    src: url(../fonts/quicksilver_3/Quicksilver\ Italic.ttf) format('truetype');
+}
+
+
+.bloco{
+font-family: 'Coolvetica';
+border-style: solid;
+border-color: #c5bbd7;
+border-width: 5px;
+border-radius: 10px;
+
+height: 300px;
+max-width: 800px;
+width: 100%;
+
+margin: 20px;
+margin-left: 500px;
+background-color: #c5bbd7;
+font-size: 24px;
+text-align: center;
+
+}
+
+.bloco:hover{
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+    background-color: #aba2bb;
+    color: #4D445C;
+}
+
+
+
+main{
+    text-align: center;
+}

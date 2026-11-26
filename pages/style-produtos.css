@@ -108,27 +108,51 @@ body {
 }
 
 
+/* TODOS OS ELEMENTOS */
 .gallery {
-    display: grid;
-    grid-template-rows: 220px;
-    padding: 20px;
+    padding: 160px;
     margin: 0 20px;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    
 }
 
-
+/* IMAGENS */
 .gallery .pombo img {
-    width: 900px;
-    height: 900px;
+    max-width: 350px;
+    width: 100%;
+    max-height: 350px;
+    height: 100%;
     align-items: center;
-    border-radius: 25px;
-    margin-bottom: 10px;
-    display: inline-block;
-
+    border-radius: 20px;
+    border-color: #4D445C;
+    
 }
 
 
-.btn {
-    margin-bottom: 80px;
-    background-color: #e6e2ec;
+
+/* PARA DEIXAR CADA ELEMENTO EMBAIXO DO OUTRO */
+.pombo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* BOTAO */
+
+.btn{
+    background-color: #ccc9d1;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 200px;
+    max-height: 40px;
+    height: 100%;
+    margin: 10px;
+    
+}
+
+.btn:hover{
+    background-color: #7f69a3;
 }

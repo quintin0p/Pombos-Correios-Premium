@@ -70,10 +70,13 @@
     text-align: center;
     color: #FECB43;
     font-family: 'Quicksilver';
+    display: grid;
+    grid: column;
+    
 }
 
 body{
-        background-color: #3D2E53;
+        background-color: #f4f3f6;
 
 }
 
@@ -84,7 +87,9 @@ body{
 }
 
 .banner{
-    height: 1065px;
+    max-height: 1065px;
+    height: 100%;
+    width: 100%;
 }
 
 .rodape {
@@ -93,7 +98,7 @@ body{
     text-align: center;
     background-color: #d6d6dc;
     padding: 20px;
-    
+    margin-top: -9px;
 }
 
 @font-face {
